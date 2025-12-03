@@ -8,8 +8,8 @@
     <link rel="stylesheet" crossorigin href="/resources/css/style.css">
   </head>
   <body>
-    <div id="root" class="text-center">
-      <header>
+    <div id="root">
+      <header class="text-center">
         <div>
           <img src="/resources/logo.png" class="logo" alt="RT logo" />
         </div>
@@ -19,28 +19,24 @@
       </header>
       <main>
         <h2>
-          We offer something for everyone.
+          <span class="set_firstName"></span>, Thank you for being a valued customer.
         </h2>
         <p>
-          Specializing in solutions for home and small business, we provide the following services and more:
+          Your <span class="set_computerModel"></span> has been prepared the way you need it. Should you encouter any issues, please reach out via email, or optionally text message if you were provided a phone number.
         </p>
-        <div class="solutionlist">
-          <p>System Repair, Upgrades, Maintenance</p>
-          <p>Web Development</p>
-          <p>Specialized Software Development</p>
-          <p>Consulting</p>
-          <p>Network Management</p>
-          <p>System Administration</p>
-          <p>Technical Support</p>
-        </div>
-        <h2>
+        <h3>
           Contact Us
-        </h2>
+        </h3>
         <p>
           We are always happy to discuss your needs and how we can help.
-          Please reach out to us at <a href="mailto:info@rowetechnology.net">info@rowetechnology.net</a>
+        </p>
+        <p>
+          <a href="mailto:info@rowetechnology.net">info@rowetechnology.net</a>
+          <a id="contactPhoneNumber" class="set_contactPhoneNumber"></a>
         </p>
       </main>
     </div>
+
+    <script src="/resources/js/customer_oobe.js" crossorigin></script>
   </body>
 </html>
