@@ -22,6 +22,7 @@ function App() {
           Specializing in solutions for home and small business, we provide the following services and more:
         </p>
         <div className="solutionlist">
+          <p>System Repair, Upgrades, Maintenance</p>
           <p>Web Development</p>
           <p>Specialized Software Development</p>
           <p>Consulting</p>
@@ -33,7 +34,8 @@ function App() {
           Contact Us
         </h2>
         <p>
-          We are always happy to discuss your needs and how we can help. However, Rowe Technology is not currently accepting new clients. Please check back for contact information at a later date.
+          We are always happy to discuss your needs and how we can help.
+          Please reach out to us at <a href="mailto:info@rowetechnology.net">info@rowetechnology.net</a>.
         </p>
       </main>
     </>
